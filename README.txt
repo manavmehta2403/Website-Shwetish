@@ -1,4 +1,4 @@
-Free Site License:
+Site Info
 ------------------
 
 Devloped the Website for my sister wedding with Google Appscript https://drive.google.com/drive/folders/1JQRmCq_baSFmJzUl_-BQkkgG1YxSUF4f?usp=sharing
