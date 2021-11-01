@@ -23,6 +23,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: auto;
+  height: auto;
   background-attachment: scroll;
 }
 #first-slider .slide3 {
@@ -30,6 +32,8 @@
 	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center;
+	width: auto;
+	height: auto;
     background-attachment: scroll;
 }
 
@@ -712,7 +716,6 @@ About
 		padding: 80px 15px 80px 80px;
 		background: #eaeaea;
 	}
-	
 }
 
 /* Medium Devices, Desktops */
@@ -725,8 +728,48 @@ About
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 	
+	#address {
+		font-size: large;
+	  }
 	
-	
+}
+
+@media only screen and (max-width: 1024px) {
+    
+	#first-slider .slide1 
+    {
+        height: 100vh;
+        background: url("../img/slides/mb-bg1.jpg") no-repeat;
+        background-position: top left;
+        background-attachment: scroll;
+        background-size: cover;
+		width: auto;
+		height: auto;
+    }
+
+	#first-slider .slide2 {
+		height: 100vh;
+        background: url("../img/slides/mb-bg2.jpg") no-repeat;
+        background-position: top left;
+        background-attachment: scroll;
+        background-size: cover;
+		width: auto;
+		height: auto;
+	  }
+
+	#first-slider .slide3 {
+		height: 100vh;
+        background: url("../img/slides/mb-bg3.jpg") no-repeat;
+        background-position: top left;
+        background-attachment: scroll;
+        background-size: cover;
+		width: auto;
+		height: auto;
+	  }
+	  
+	  #address {
+		font-size: x-small;
+	  }
 }
 
 /* ------------------------------------------------------------------------------

@@ -1247,8 +1247,41 @@ body {
         background-position: top left;
         background-attachment: scroll;
         background-size: cover;
+        width: auto;
+        height: auto;
     }
     
+    #first-slider .slide1 
+    {
+        height: 100vh;
+        background: url("../img/slides/mb-bg1.jpg") no-repeat;
+        background-position: top left;
+        background-attachment: scroll;
+        background-size: cover;
+        width: auto;
+        height: auto;
+    }
+
+	#first-slider .slide2 {
+		height: 100vh;
+        background: url("../img/slides/mb-bg2.jpg") no-repeat;
+        background-position: top left;
+        background-attachment: scroll;
+        background-size: cover;
+        width: auto;
+        height: auto;
+	  }
+
+	#first-slider .slide3 {
+		height: 100vh;
+        background: url("../img/slides/mb-bg3.jpg") no-repeat;
+        background-position: top left;
+        background-attachment: scroll;
+        background-size: cover;
+        width: auto;
+        height: auto;
+	  }
+
     .text-box {
     width: 70%;
     position: absolute;
