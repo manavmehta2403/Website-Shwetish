@@ -1381,7 +1381,7 @@ body {
     .text-box {
         width: 70%;
         position: absolute;
-        top: 33%;
+        top: 28%;
         left: 45%;
         transform: translateX(-50%);
         text-align: center;
