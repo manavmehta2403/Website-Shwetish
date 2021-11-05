@@ -4,8 +4,10 @@ body {
     margin: 0;
     font-size: 14px;
     line-height: 20px;
-    background: transparent;
+    background: #3c1f59;
 }
+
+
 
 
 
@@ -21,7 +23,8 @@ body {
 
 .navbar {
     padding: 10px 50px;
-    background: transparent;
+    background: #3c1e57;
+    opacity: 90%;
 }
 
 
@@ -174,6 +177,7 @@ body {
     background-size: 10%;
     background-origin: top left;
     padding: 80px 0px;
+    background-color: #42225c;
 
 }
 
@@ -186,7 +190,7 @@ body {
     text-transform: capitalize;
     text-align: center;
     padding-bottom: 60px;
-    color: #ff4545;
+    color: darkgoldenrod;
 }
 
 .section-2 h1::before {
@@ -616,7 +620,7 @@ body {
 .section-5 {
 
     padding: 80px 0px;
-
+    background-color: #42225c;
 }
 
 
@@ -628,7 +632,7 @@ body {
     text-transform: capitalize;
     text-align: center;
     padding-bottom: 60px;
-    color: #ff4545;
+    color: darkgoldenrod;
 }
 
 .section-5 .heading h1::after {
@@ -669,14 +673,13 @@ body {
 }
 
 .event .content {
-    background: #ffffff;
+    background: #55386e;
     padding: 20px 10px;
 }
 
 .event .content h1 {
-    color: #ff5050;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Dancing Script', cursive;
+    color: #fdc987;
+    font-family: 'Great Vibes', cursive;
     text-transform: capitalize;
     letter-spacing: 2px;
     font-size: 30px;
@@ -690,7 +693,7 @@ body {
     list-style-type: none;
     margin: 0;
     display: inline-block;
-    background: #ebebeb;
+    background: #daa965;
     padding: 15px;
     border-radius: 5px;
     font-size: 13px;
@@ -701,6 +704,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-transform: capitalize;
     font-size: 13px;
+    color: #846090;
 }
 
 
@@ -716,6 +720,7 @@ body {
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
+    background-color: #42225c;
 
 }
 
@@ -726,7 +731,7 @@ body {
     text-transform: capitalize;
     text-align: center;
     padding-bottom: 60px;
-    color: #ff4545;
+    color: darkgoldenrod;
 }
 
 .section-6 .heading h1::after {
@@ -757,7 +762,7 @@ body {
     font-family: 'Kaushan Script', cursive;
     text-transform: capitalize;
     display: inline-block;
-    color: #555555;
+    color: #ffffff;
     padding: 10px 5px;
     font-size: 30px;
 }
@@ -810,14 +815,13 @@ body {
 }
 
 .section-6 .people .content {
-    background: #ffffff;
+    background: #55386e;
     padding: 20px 10px;
 }
 
 .section-6 .people .content h1 {
-    color: #ff5050;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Dancing Script', cursive;
+    color: #fdc987;
+    font-family: 'Great Vibes', cursive;
     text-transform: capitalize;
     letter-spacing: 2px;
     font-size: 30px;
@@ -826,7 +830,7 @@ body {
 .section-6 .people .content p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    color: #6c6c6c;
+    color: #808080;;
 }
 
 
@@ -850,6 +854,7 @@ body {
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
+    background-color: #42225c;
 
 }
 
@@ -862,7 +867,7 @@ body {
     text-transform: capitalize;
     text-align: center;
     padding-bottom: 60px;
-    color: #ff4545;
+    color: darkgoldenrod;
 }
 
 .section-7 .heading h1::after {
@@ -924,6 +929,7 @@ body {
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
+    background-color: #42225c;
 
 }
 
@@ -931,7 +937,7 @@ body {
 
 
 .section-8 .heading h1 {
-    color: #ff4545;
+    color: darkgoldenrod;
     font-size: 45px;
     font-family: 'Dancing Script', cursive;
     text-transform: capitalize;
@@ -1258,8 +1264,8 @@ body {
         background-position: top left;
         background-attachment: scroll;
         background-size: cover;
-        width: auto;
-        height: auto;
+        width: 100%;
+		height: 100%;
     }
 
 	#first-slider .slide2 {
@@ -1268,8 +1274,8 @@ body {
         background-position: top left;
         background-attachment: scroll;
         background-size: cover;
-        width: auto;
-        height: auto;
+        width: 100%;
+		height: 100%;
 	  }
 
 	#first-slider .slide3 {
@@ -1278,8 +1284,8 @@ body {
         background-position: top left;
         background-attachment: scroll;
         background-size: cover;
-        width: auto;
-        height: auto;
+        width: 100%;
+		height: 100%;
 	  }
 
     .text-box {
@@ -1298,7 +1304,8 @@ body {
 
     .navbar {
         padding: 30px 50px;
-        background: rgba(255, 255, 255, 0.82);
+        background: #3c1e57;
+        opacity: 90%;
     }
 }
 
@@ -1440,6 +1447,7 @@ body {
         background-position: center;
         padding: 80px 0px;
         overflow: hidden;
+        background-color: #42225c;
     }
 
 
@@ -1454,6 +1462,11 @@ body {
 
 
 
+    .navbar {
+        padding: 30px 50px;
+        background: #3c1e57;
+        opacity: 75%;
+    }
 
 
 
